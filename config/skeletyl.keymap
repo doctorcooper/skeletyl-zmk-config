@@ -149,6 +149,7 @@
         &kp Z       &mt LG(X) X &mt LG(C) C     &mt LG(V) V  &kp B          &kp N     &kp M         &kp COMMA    &kp DOT     &kp FSLH
                                 &mt LGUI ESCAPE &mo LWR      &lt RSE RET    &kp SPACE &kp BACKSPACE &mt LSHFT CAPS
       >;      
+        display-name = "default";
     };
 
     lower_layer {
@@ -158,6 +159,7 @@
         &none             &kp KP_PLUS     &kp KP_MINUS       &kp LEFT_BRACE           &kp LEFT_BRACKET           &kp RIGHT_BRACKET   &kp RIGHT_BRACE    &kp MINUS            &kp EQUAL                     &kp BSLH                 
                                           &mt LGUI ESCAPE    &trans                   &none                      &trans              &kp DEL            &kp QMARK
       >;
+        display-name = "lower";
     };
 
     raise_layer {
@@ -167,6 +169,7 @@
         &none           &none               &none           &none          &kp GRAVE         &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)  &kp LA(LEFT)         &kp LA(RIGHT)  &kp GRAVE
                                             &kp LGUI        &none          &trans            &trans               &trans               &trans
       >;
+        display-name = "raise";
     };
 
     Fun {
@@ -176,6 +179,7 @@
         &kp F1  &kp F2  &kp F3 &kp F4 &kp F5          &none &none     &none     &none    &none         &trans
                         &none  &none  &none           &none &none &none
       >;
+        display-name = "fun";
     };
 
     Game {
@@ -185,6 +189,7 @@
         &kp LSHIFT &kp Z &kp X     &kp C     &kp V          &kp N1 &kp N2   &kp N3   &kp N4   &kp N5
                          &kp LALT  &kp SPACE &kp M          &kp T  &kp B    &kp H 
       >;
+        display-name = "game";
     };
 
     Reset {
@@ -194,6 +199,7 @@
         &out OUT_TOG &none        &none        &none        &none                 &none        &none        &none        &none        &out OUT_TOG
                                   &none        &none        &bootloader           &bootloader  &none        &none               
       >;
+        display-name = "reset";
     };
   };
 };
