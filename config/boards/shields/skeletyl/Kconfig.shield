@@ -9,3 +9,6 @@ config SHIELD_SKELETYL_CENTRAL_RIGHT
 
 config SHIELD_SKELETYL_PERIPHERAL_RIGHT
     def_bool $(shields_list_contains,skeletyl_peripheral_right)
+
+config SHIELD_SKELETYL_DONGLE
+    def_bool $(shields_list_contains,skeletyl_dongle)
