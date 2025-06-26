@@ -35,12 +35,12 @@
 	compatible = "nordic,nrf-twi";
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
-	oled: ssd1306@3c {
-        compatible = "solomon,ssd1306fb";
+	oled: sh1106@3c {
+        compatible = "sinowealth,sh1106";
         reg = <0x3c>;
-        width = <128>;
+        width = <129>;
         height = <64>;
-        segment-offset = <0>;
+        segment-offset = <1>;
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
