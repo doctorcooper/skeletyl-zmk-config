@@ -125,10 +125,12 @@
       key-positions = <11 12>;
       bindings = <&kp LC(BACKSPACE)>;
     };
+    /*
     combo_unlock {
       key-positions = <0 4>;
       bindings = <&studio_unlock>;
     };
+    */
     combo_term1 {
       key-positions = <20 21>;
       bindings = <&kp LG(BSLH)>;

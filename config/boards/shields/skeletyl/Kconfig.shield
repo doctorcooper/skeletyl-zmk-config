@@ -1,8 +1,8 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_SKELETYL_LEFT
-    def_bool $(shields_list_contains,skeletyl_left)
+config SHIELD_SKELETYL_PERIPHERAL_LEFT
+    def_bool $(shields_list_contains,skeletyl_peripheral_left)
 
-config SHIELD_SKELETYL_RIGHT
-    def_bool $(shields_list_contains,skeletyl_right)
+config SHIELD_SKELETYL_CENTRAL_RIGHT
+    def_bool $(shields_list_contains,skeletyl_central_right)
